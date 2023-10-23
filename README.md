@@ -26,10 +26,12 @@ To run the application locally, follow these steps:
 6. Start the React development server by using the below command.
    npm start
 7. Go back to the root directory of the project.
-8. Navigate to the Server folder.
-9. Run the node server by the below command.
-      node server.js
-10. Open your browser and go to http://localhost:3000 to view the to-do list application.
+8. Navigate to the Server folder. initialize Node.js by running npm init -y.
+9. Then install the required packages:
+   npm install express body-parser   
+10. Run the node server by the below command.
+      node server.js   
+11. Open your browser and go to http://localhost:3000 to view the to-do list application.
 
 You can now add a new to-do task by just entering the task into the input box and adding on the button add.
 After you have completed the task, you can select the checkbox to mark it as Complete.
